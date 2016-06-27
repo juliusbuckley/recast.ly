@@ -10,10 +10,5 @@ var searchYouTube = (options, callback) => {
     }
   });
 };
-
-// searchYouTube({key: 'AIzaSyDv4gvT5m8dC_qPj_LGkrh15pyX4QdN8d0', query: 'cats', max: 10}, function(data) {
-//   videoData.push(data);
-//   console.log(data);
-// });
     
 window.searchYouTube = searchYouTube;

@@ -14,19 +14,3 @@ window.Search = Search;
 // search: list
 // returns collection of search results matching query parameters specified in API request
 // compare search to results
-
-/* {
-  "kind": "youtube#searchListResponse",
-  "etag": etag,
-  "nextPageToken": string,
-  "prevPageToken": string,
-  "regionCode": string,
-  "pageInfo": {
-    "totalResults": integer,
-    "resultsPerPage": integer
-  },
-  "items": [
-    search Resource
-  ]
-}
-*/
